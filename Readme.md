@@ -21,6 +21,8 @@ NOTE: Depending of what you intend to do in your app, other dependencies might b
 
 After this I generated an Angular Provider (Service) that will wrap our BabylonJS Engine:
     ionic g service BabylonJS
+Then I decided to delete it right away 😁. Nobody wants overcomplicated code, just import dependencies right away into working page.
+    import * as BABYLON from 'babylonjs';
 
 Besides holding our Engine instance, being in a Service allows for different pages to access the same Engine, e.g. you define different scenes in different pages and use the same Engine Service for all.
 
