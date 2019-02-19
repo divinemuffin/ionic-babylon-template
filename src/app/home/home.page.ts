@@ -43,7 +43,6 @@ export class HomePage {
     return scene;
   };
 
-
   ngOnInit() {
     // call the createScene function
     let mainScene = this.createScene();
